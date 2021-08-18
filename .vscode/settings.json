@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/364df326-aa0a-4fb7-9f11-3c370eadb2cc/resourceGroups/appsvc_linux_centralus_basic/providers/Microsoft.Web/sites/PMdemoAPI",
+    "appService.deploySubpath": "."
+}
