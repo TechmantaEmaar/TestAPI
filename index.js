@@ -10,7 +10,7 @@ routes.get('/', (req, res, next) => {
 
 app.use('/api', routes);  
 
-const port = process.env.PORT || 1337;
+const port = process.env.PORT || 1337; // port
 app.listen(port);
 
 console.log("Server running at http://localhost:%d", port);
