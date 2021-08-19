@@ -5,7 +5,7 @@ const app = express();
 const server = require('http');
 
 routes.get('/', (req, res, next) => {
-    res.json({data: { name: 'Alex', address: 'chigagi USA' }})
+    res.json({data: { name: 'Alex', address: 'dubai UAE' }})
 });
 
 app.use('/api', routes);  
