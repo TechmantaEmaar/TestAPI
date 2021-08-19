@@ -30,5 +30,5 @@ steps:
 - task: PublishBuildArtifacts@1
   inputs:
     PathtoPublish: '.'
-    ArtifactName: '.'
+    ArtifactName: 'node'
     publishLocation: 'Container'
